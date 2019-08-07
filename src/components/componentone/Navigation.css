@@ -1,0 +1,42 @@
+header {
+  background: #E7E3E2;
+  padding: auto;
+  height: 140px;
+  font-family: sans-serif;
+  color: #000;
+
+}
+
+.img {
+  float: left;
+  border-right: none;
+  margin: 0px 20px;
+  height: 0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+nav ul li {
+  float: right;
+  padding: 6px;
+  margin: 6px;
+  border-right: 1px dashed black;
+  text-align: center;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+
+}
+
+.link {
+  margin: 50px;
+  text-align: right;
+}
