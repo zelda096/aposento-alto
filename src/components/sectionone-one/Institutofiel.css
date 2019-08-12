@@ -1,0 +1,24 @@
+.article-section-two
+{
+  width: 48%;
+  margin: 0 1%;
+  padding: 16px;
+}
+#section-two
+{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+}
+#section-two h4
+{
+  text-align: center;
+  font-size: 24px;
+}
+#section-one p
+{
+text-align: center;
+font-size: 14px;
+}

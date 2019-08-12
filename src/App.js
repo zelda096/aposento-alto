@@ -10,24 +10,22 @@ import './components/componenttwo/Image.css'
 import Section from './components/Sectionone/Section'
 import './components/Sectionone/Section.css'
 
-import Nosotros from './components/Sectiontwo/Nosotros'
-import './components/Sectiontwo/Nosotros.css'
-
-import Videos from './components/Sectionthree/Videos'
-import './components/Sectionthree/Videos.css'
+import Instituto_fiel from './components/sectionone-one/Institutofiel'
+import './components/sectionone-one/Institutofiel.css'
 
 import Footer from './components/SectionFour/Footer'
 import './components/SectionFour/Footer.css'
 
-class App extends Component {
-  render() {
+class App extends Component
+{
+  render()
+   {
     return (
       <div className="App">
         <Navigation />
         <Image />
         <Section />
-        <Nosotros />
-        <Videos />
+        <Instituto_fiel />
         <Footer />
       </div>
     );

@@ -14,6 +14,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  text-align: center;
 }
 
 
@@ -25,4 +26,8 @@ footer {
 #section-four p  {
   text-align: center;
   font-size: 14px;
+}
+.hola
+{
+  justify-content: space-around;
 }
