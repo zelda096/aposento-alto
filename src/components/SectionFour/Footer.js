@@ -16,7 +16,7 @@ class Footer extends Component {
           <p><img src={Email}/> Lorem ipsum</p>
         </article>
         <article className="article-section-four">
-          <h5>Asociación Seguidores De Jesucristo</h5>
+          <p>Asociación Seguidores De Jesucristo</p>
             <img className="hola" src={Face}/>
 
             <img className="hola" src={Youtube}/>

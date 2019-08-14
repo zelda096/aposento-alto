@@ -7,7 +7,7 @@ class Navigation extends Component {
       <header>
         <nav>
           <ul>
-            <li className="img"><a target="_blank" href="insertar linkk"><img src={Logo2} width="120" height="120" alt="logoaposento"/></a></li>
+            <li className="img"><a target="_blank" href="insertar linkk"><img src={Logo2} width="140" height="140" alt="logoaposento"/></a></li>
             <li className="link"><a target="_blank" href="insertar linkk">IGLESIAS</a></li>
             <li className="link"><a href="https://institutofiel.com/">INSTITUTO FIEL</a></li>
             <li className="link"><a target="_blank" href="insertar linkk">CONTÁCTENOS</a></li>
