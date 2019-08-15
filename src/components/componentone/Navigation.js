@@ -6,10 +6,10 @@ class Navigation extends Component {
     return (
       <header>
         <nav>
-          <ul>
-            <li className="img"><a target="_blank" href="insertar linkk"><img src={Logo2} width="140" height="140" alt="logoaposento"/></a></li>
+          <li id="log"><a target="_blank" href="insertar linkk"><img src={Logo2} width="140" height="140" alt="logoaposento"/></a></li>
+          <ul className="menu">
             <li className="link"><a target="_blank" href="insertar linkk">IGLESIAS</a></li>
-            <li className="link"><a href="https://institutofiel.com/">INSTITUTO FIEL</a></li>
+            <li className="link"><a target="_blank" href="https://institutofiel.com/">INSTITUTO FIEL</a></li>
             <li className="link"><a target="_blank" href="insertar linkk">CONTÁCTENOS</a></li>
           </ul>
         </nav>

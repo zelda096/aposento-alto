@@ -1,44 +1,44 @@
+@import url(menu.css);
+
 header {
+  width: auto;
   background: #E7E3E2;
   padding: auto;
   height: 140px;
   font-family: sans-serif;
   color: #000;
 
+  position: fixe;
+
 }
 
-.img {
-  float: left;
+#log {
+  display: flex;
+  justify-content: flex-start;
   border-right: none;
-  margin: 0px 20px;
+  margin: 0px 50px;
   height: 0px;
+  padding: auto;
 }
 
-ul {
+ul
+{
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-end;
   list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
 }
 
-nav ul li {
-  float: right;
-  padding: 6px;
-  margin: 6px;
-  border-right: 1px dashed black;
-  text-align: center;
-
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #000;
-
-}
-
-.link {
+.link
+{
   display: flex;
   justify-content: space-around;
   margin: 50px;
-  text-align: right;
+}
+a
+{
+  text-decoration: none;
+  color: #000;
+  width: 23%;
+  margin: 0px 50px;
 }
