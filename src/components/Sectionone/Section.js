@@ -10,16 +10,16 @@ class Section extends Component {
           <article className="article-section-one">
             <a target="_blank" href="quienessomos"><img src={Quienes_somos} width="150" height="129"/></a>
             <h4>Quienes somos</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Somos una entidad de carácter religioso, con orientación cristocéntrica evangélica bíblica; cuya principal labor, es la de brindar soporte legal, administrativo y espiritual a las iglesias asociadas del movimiento Aposento Alto.</p>
           </article>
           <article className="article-section-one">
             <a target="_blank" href="iglesias"><img src={Iglesias} width="150" height="129"/></a>
             <h4>Iglesias</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Somos iglesias neotestamentarias, cristo céntricas, con liderazgo plural, que procuran cumplir con la Gran Comisión de hacer discípulos.(Mt. 28:16-20).</p>
           </article>
           <article className="article-section-one">
             <a><img src={Calendario}width="150" height="129"/></a>
-            <h4>Calendario</h4>
+            <h4>Eventos</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </article>
       </section>
