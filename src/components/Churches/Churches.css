@@ -1,0 +1,33 @@
+.churches-header {
+  width: 100%;
+  height: 450px;
+  background: url('Location.png') no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.churches__selector {
+  display: flex;
+}
+.churches-header__title {
+  width: 45%;
+  text-align: center;
+}
+.churches-header__button {
+  background: transparent;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.churches-header__button:hover {
+  text-decoration: underline;
+}
+.churches-selector__church
+{
+  border: 1px solid #ccc;
+  font-size: 14px;
+  padding: 16px;
+}

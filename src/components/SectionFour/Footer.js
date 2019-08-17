@@ -5,6 +5,7 @@ import Youtube from './Youtube.png';
 import Casa from './Casa.png'
 import Tel from './Tel.png'
 import Email from './Email.png'
+import './Footer.css'
 
 class Footer extends Component {
   render () {

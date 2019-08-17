@@ -1,20 +1,11 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router,  Route, Link } from 'react-router-dom';
 import './App.css';
 
-import './components/componentone/Navigation.css'
 import Navigation from './components/componentone/Navigation';
-
-import Image from './components/componenttwo/Image'
-import './components/componenttwo/Image.css'
-
-import Section from './components/Sectionone/Section'
-import './components/Sectionone/Section.css'
-
-import Instituto_fiel from './components/sectionone-one/Institutofiel'
-import './components/sectionone-one/Institutofiel.css'
-
-import Footer from './components/SectionFour/Footer'
-import './components/SectionFour/Footer.css'
+import Footer from './components/SectionFour/Footer';
+import Home from './components/Home/Home'
+import Churches from './components/Churches/Churches'
 
 class App extends Component
 {
@@ -22,11 +13,12 @@ class App extends Component
    {
     return (
       <div className="App">
+        <Router >
         <Navigation />
-        <Image />
-        <Section />
-        <Instituto_fiel />
-        <Footer />
+          <Route path='/' exact component={Home}/>
+          <Route path='/iglesias' component={Churches}/>
+          <Footer />
+        </ Router>
       </div>
     );
   }
