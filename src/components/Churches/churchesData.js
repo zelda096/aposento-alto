@@ -33,8 +33,8 @@ const churchesData = [
     churches: [
       {
         id: 1,
-        name: 'Iglesia Aposento Santa Marta 140',
-        address: 'Calle 146 # 52 - 4.7260732',
+        name: 'Iglesia Aposento Santa Marta - Magdalena',
+        address: 'Calle 17 No. 12 A –  105',
         phone: '3144.726073246789',
         leader: 'Chris Ramirez',
         location: {
@@ -42,17 +42,7 @@ const churchesData = [
           lng: -74.051789
         }
       },
-      {
-        id: 2,
-        name: 'Iglesia Aposento Santa Marta 2',
-        address: 'Calle 146 # 52 - 4.7260732',
-        phone: '3144.726073246789',
-        leader: 'Chris Ramirez',
-        location: {
-          lat: 4.7260732,
-          lng: -74.051789
-        }
-      },
+
     ]
   },
   {
