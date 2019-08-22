@@ -17,13 +17,13 @@ class Footer extends Component {
           <p><img src={Email}/> Lorem ipsum</p>
         </article>
         <article className="article-section-four">
-          <p>Asociación Seguidores De Jesucristo</p>
+          <p>Iglesias Cristianas Aposento Alto - Asociación Seguidores de Jesucristo</p>
             <img className="hola" src={Face}/>
 
             <img className="hola" src={Youtube}/>
         </article>
         <article className="article-section-four">
-          <img src={Blanco} width="200" height="155"/>
+          <img src={Blanco} width="auto" height="180px"/>
         </article>
       </footer>
     )

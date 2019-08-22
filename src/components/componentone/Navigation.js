@@ -8,7 +8,7 @@ class Navigation extends Component {
     return (
       <header>
         <nav>
-          <li id="log"><Link to="/"><img src={Logo2} width="140" height="140" alt="logoaposento"/></Link></li>
+          <li id="log"><Link to="/"><img src={Logo2} width="auto" height="150px" alt="logoaposento"/></Link></li>
           <ul className="menu">
           <li className="link"><Link to='/iglesias'>IGLESIAS</Link></li>
             <li className="link"><a target="_blank" href="https://institutofiel.com/">INSTITUTO FIEL</a></li>

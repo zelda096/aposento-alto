@@ -13,7 +13,7 @@ footer {
 #section-four{
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   text-align: center;
 }
 
@@ -26,4 +26,11 @@ footer {
 #section-four p  {
   text-align: center;
   font-size: 14px;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+.hola
+{
+  margin: 0px 15px;
 }

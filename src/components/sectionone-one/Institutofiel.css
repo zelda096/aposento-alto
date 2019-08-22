@@ -22,3 +22,7 @@ text-align: center;
 font-size: 14px;
 align-items: flex-start;
 }
+#section-two img {
+  height: 150px;
+  width: auto;
+}
