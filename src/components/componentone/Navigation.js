@@ -6,16 +6,18 @@ import {Link} from 'react-router-dom'
 class Navigation extends Component {
   render() {
     return (
-
-        <div className="header">
-
-            <p><Link to="/"><img src={Logo2} width="auto" height="150px" alt="logoaposento"/></Link></p>
-            <p><Link to='/iglesias'>IGLESIAS</Link></p>
-            <p><a target="_blank" href="https://institutofiel.com/">INSTITUTO FIEL</a></p>
-            <p><Link to='/Villapeniel'>VILLAPENIEL</Link></p>
-            <p><Link to="/" href="insertar linkk">CONTÁCTENOS</Link></p>
-
+      <header>
+        <div className="wrapper">
+          <div className="logo"><Link to="/"><img src={Logo2} width="auto" height="180px" alt="logoaposento"/></Link></div>
+          <nav>
+            <a><Link to="/">HOME</Link></a>
+            <a><Link to='/iglesias'>IGLESIAS</Link></a>
+            <a target="_blank" href="https://institutofiel.com/">INSTITUTO FIEL</a>
+            <a><Link to='/Villapeniel'>VILLAPENIEL</Link></a>
+            <a><Link to="/" href="insertar linkk">CONTÁCTENOS</Link></a>
+          </nav>
         </div>
+      </header>
 
 
     )

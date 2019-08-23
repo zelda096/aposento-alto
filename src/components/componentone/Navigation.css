@@ -1,11 +1,42 @@
-.header
+header
 {
   width: 100%;
-  height: 160px;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-decoration: none;
+  overflow: hidden;
   background: #FDFEF5;
+  margin-bottom: 20px;
+
+}
+
+.wrapper
+{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+header .logo
+{
+  float: left;
+}
+header nav
+{
+  float: right;
+  margin-top: 6%;
+}
+header nav a
+{
+  display: flex;
+  align-items: center;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  -webkit-transition:all 500ms ease ;
+  -0-transition:all 500ms ease ;
+  transition:all 500ms ease ;
+}
+header nav a:hover
+{
+  background: #3C69BD;
+  border-radius: 50px;
+  color: #fff;
 }
