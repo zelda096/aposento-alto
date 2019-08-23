@@ -28,9 +28,21 @@ footer {
   font-size: 14px;
   font-style: italic;
   font-family: sans-serif;
+
 }
 
 .hola
 {
   margin: 0px 15px;
+}
+
+.array {
+  display: flex;
+  margin: 0 31%;
+  margin-top: 15px;
+  align-items: center;
+}
+.array2
+{
+  margin: 0px 10px;
 }

@@ -12,9 +12,9 @@ class Footer extends Component {
     return (
       <footer id="section-four">
         <article className="article-section-four">
-          <p><img src={Casa}/> Lorem ipsum</p>
-          <p><img src={Tel}/> Lorem ipsum</p>
-          <p><img src={Email}/> Lorem ipsum</p>
+          <p className="array"><img className="array2" src={Casa}/> Calle 79b # 105b - 09</p>
+          <p className="array"><img className="array2" src={Tel}/> 394 86 41</p>
+          <p className="array"><img className="array2" src={Email}/>info@aposentoaltoasj.org</p>
         </article>
         <article className="article-section-four">
           <p>Iglesias Cristianas Aposento Alto - Asociación Seguidores de Jesucristo</p>

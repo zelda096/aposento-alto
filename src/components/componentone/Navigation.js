@@ -8,8 +8,8 @@ class Navigation extends Component {
     return (
       <header>
         <div className="wrapper">
-          <div className="logo"><Link to="/"><img src={Logo2} width="auto" height="180px" alt="logoaposento"/></Link></div>
-          <nav>
+        <div className="logo"><Link to="/"><img src={Logo2} width="auto" height="250px" alt="logoaposento"/></Link></div>
+          <nav className="menu">
             <a><Link to="/">HOME</Link></a>
             <a><Link to='/iglesias'>IGLESIAS</Link></a>
             <a target="_blank" href="https://institutofiel.com/">INSTITUTO FIEL</a>

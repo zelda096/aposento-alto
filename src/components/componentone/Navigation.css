@@ -1,31 +1,33 @@
 header
 {
   width: 100%;
+  height: auto;
   overflow: hidden;
   background: #FDFEF5;
   margin-bottom: 20px;
-
 }
-
 .wrapper
-{
-  width: 90%;
-  margin: auto;
-  overflow: hidden;
-}
-header .logo
-{
-  float: left;
-}
-header nav
-{
-  float: right;
-  margin-top: 6%;
-}
-header nav a
 {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+nav
+{
+  display: flex;
+  align-items: center;
+
+}
+.logo
+{
+  width: 45%;
+}
+
+header nav a
+{
+
   display: inline-block;
   color: #000;
   text-decoration: none;
