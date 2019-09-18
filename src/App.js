@@ -7,6 +7,7 @@ import Footer from './components/SectionFour/Footer';
 import Home from './components/Home/Home'
 import Churches from './components/Churches/Churches'
 import Villapeniel from './components/Villapeniel/Villapeniel'
+import Contacto from './components/Contacto/Contacto'
 
 class App extends Component
 {
@@ -19,6 +20,7 @@ class App extends Component
           <Route path='/' exact component={Home}/>
           <Route path='/iglesias' component={Churches}/>
           <Route path='/villapeniel' component={Villapeniel}/>
+          <Route path='/contacto' component={Contacto}/>
           <Footer />
         </ Router>
       </div>

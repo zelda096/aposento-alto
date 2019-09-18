@@ -14,7 +14,7 @@ class Navigation extends Component {
             <a><Link to='/iglesias'>IGLESIAS</Link></a>
             <a target="_blank" href="https://institutofiel.com/">INSTITUTO FIEL</a>
             <a><Link to='/Villapeniel'>VILLAPENIEL</Link></a>
-            <a><Link to="/" href="insertar linkk">CONTÁCTENOS</Link></a>
+            <a><Link to="/contacto">CONTÁCTENOS</Link></a>
           </nav>
         </div>
       </header>
