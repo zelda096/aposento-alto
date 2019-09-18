@@ -10,12 +10,18 @@
 }
 .churches__selector {
   display: flex;
+  margin-left: 105px;
 
+}
+.churches-selector {
+    overflow-y: scroll;
+    height: 400px;
+    width: 400px;
 }
 .churches-header__title {
   width: 45%;
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
 }
 .churches-header__button {
   background: transparent;
@@ -23,7 +29,7 @@
   color: white;
   font-weight: bold;
   cursor: pointer;
-  font-size: 16px
+  font-size: 20px
 }
 .churches-header__button:hover {
   text-decoration: underline;
@@ -33,11 +39,4 @@
   border: 1px solid #ccc;
   font-size: 14px;
   padding: 16px;
-}
-
-.scroll
-{
-  height: 207px;
-  max-height: 210px;
-  overflow: hidden;
 }

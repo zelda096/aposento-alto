@@ -27,14 +27,14 @@ nav
 
 header nav a
 {
-
   display: inline-block;
   color: #000;
   text-decoration: none;
   padding: 10px 20px;
-  -webkit-transition:all 500ms ease ;
-  -0-transition:all 500ms ease ;
-  transition:all 500ms ease ;
+  -webkit-transition:all 200ms ease-in ;
+  -0-transition:all 200ms ease-in ;
+  transition:all 200ms ease-in ;
+  margin: 0 8px;
 }
 header nav a:hover
 {
