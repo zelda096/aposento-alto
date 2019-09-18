@@ -7,13 +7,11 @@ export default class ChurchesSelector extends Component {
 
   renderChurch(church, onChangeChurch) {
     return (
-      <div className="scroll">
       <div className="churches-selector__church" onClick={()=>onChangeChurch(church)}>
         <h4>{church.name}</h4>
         <p>{church.address}</p>
         <p>{church.phone}</p>
         <p>{church.leader}</p>
-      </div>
       </div>
     )
   }

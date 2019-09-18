@@ -1,6 +1,7 @@
 #maps {
-  width: 100%;
+  width: 50%;
   height: auto;
+  margin-left: 80px;
 }
 .maps__pin {
   background: red;
