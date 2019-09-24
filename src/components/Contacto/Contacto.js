@@ -4,7 +4,14 @@ import './Contacto.css'
 class Contacto extends Component {
   render () {
     return (
-      <p>hola</p>
+
+      <form>
+        <label>
+          Nombre:
+          <input type="text" name="hola" />
+        </label>
+        <input type="submit" value="Submit" />
+      </form>
     )
   }
 }

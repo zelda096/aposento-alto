@@ -21,7 +21,7 @@ export default class ChurchesSelector extends Component {
     const availableChurches =this.getChurches(churchesData, selectedCity);
     return (
       <div className="churches-selector">
-        <h2>La ciudad seleccionada es {selectedCity}</h2>
+        
         {
           availableChurches.map(church => this.renderChurch(church, onChangeChurch))
         }
