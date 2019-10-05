@@ -1,0 +1,40 @@
+.fondo
+{
+  width: 100%;
+  height: 500px;
+  background: url('fondo.jpg') no-repeat;
+  background-size: cover;
+  color: white;
+}
+.fondo p
+{
+  width: 1000px;
+  align-items: center;
+}
+
+.Misión
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Misión_title
+{
+  width: 45%;
+  text-align: center;
+  font-size: 50px;
+  align-items: center;
+}
+.Visión
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Visión_title
+{
+  width: 45%;
+  text-align: center;
+  font-size: 50px;
+  align-items: center;
+}

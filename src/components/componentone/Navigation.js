@@ -13,8 +13,8 @@ class Navigation extends Component {
             <Link to="/">HOME</Link>
             <Link to='/iglesias'>IGLESIAS</Link>
             <a target="_blank" href="https://institutofiel.com/">INSTITUTO FIEL</a>
-            <a><Link to='/Villapeniel'>VILLAPENIEL</Link></a>
-            <a><Link to="/contacto">CONTÁCTENOS</Link></a>
+            <Link to='/Villapeniel'>VILLAPENIEL</Link>
+            <Link to="/contacto">CONTÁCTENOS</Link>
           </nav>
         </div>
       </header>

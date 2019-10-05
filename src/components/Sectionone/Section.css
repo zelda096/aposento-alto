@@ -1,8 +1,8 @@
 
 .article-section-one
 {
-width: 31%;
-margin: 0 1%;
+width: 30%;
+margin: 8px;
 padding: 16px;
 }
 #section-one
@@ -11,6 +11,7 @@ display: flex;
 justify-content: space-around;
 align-items: flex-start;
 text-align: center;
+flex-wrap: wrap;
 }
 #section-one h4
 {
@@ -29,4 +30,21 @@ font-size: 14px;
 #section-one img {
   height: 150px;
   width: auto;
+}
+
+@media screen and (min-width: 100px) and (max-widht: 500px) {
+  #section-one {
+    flex-direction: column;
+    align-items: center;
+  }
+  .article-section-one {
+    flex-direction: column;
+    width: 90%;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 780px) {
+  .article-section-one {
+    flex-direction: column;
+    width: 90%;
+  }
 }
