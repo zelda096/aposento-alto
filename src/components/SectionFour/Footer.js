@@ -23,7 +23,7 @@ class Footer extends Component {
             <img className="hola" src={Youtube}/>
         </article>
         <article className="article-section-four">
-          <img src={Blanco} width="auto" height="180px"/>
+          <img className="logo_footer" src={Blanco} width="auto" height="180px"/>
         </article>
       </footer>
     )

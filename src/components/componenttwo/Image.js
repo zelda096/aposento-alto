@@ -5,7 +5,7 @@ import './Image.css'
 class Image extends Component {
   render() {
     return (
-      <article>
+      <article className="img_aposento">
         <img className="aposento"src={Imagen} alt="imagen de Aposento Alto"/>
       </article>
     )
