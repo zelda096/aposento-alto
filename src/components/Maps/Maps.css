@@ -1,7 +1,8 @@
 #maps {
-  width: 50%;
+  width: 90%;
   height: auto;
-  margin-left: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .maps__pin {
   background: red;

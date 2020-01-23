@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Imgcontacto from './Imgcontacto.jpg'
 import './Contacto.css';
 
 class Contacto extends Component {
@@ -19,6 +20,7 @@ class Contacto extends Component {
 
       <div>
         <div className="contact-header">
+        <img className="contacto"src={Imgcontacto} alt="img"/>
         </div>
         <div id="contact-styles">
           <div className="text-contact">
@@ -28,7 +30,7 @@ class Contacto extends Component {
             <p className="font2">6742209 / 3016501051</p>
             <p className="font2">correodeejemplo@aposento.com</p>
             <p className="font2">www.aposentoalto.org.com</p>
-        
+
           </div>
           <form>
             <label htmlFor="nombre"></label>
