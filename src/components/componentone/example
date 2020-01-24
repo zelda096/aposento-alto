@@ -1,23 +1,24 @@
+<header>
+  <div className="wrapper">
+  <div className="logo"><Link to="/"><img src={Logo2} width="auto" height="250px" alt="logoaposento"/></Link></div>
+    <nav className="menu">
+      <Link to="/">HOME</Link>
+      <Link to='/iglesias'>IGLESIAS</Link>
+      <a target="_blank" href="https://institutofiel.com/">INSTITUTO FIEL</a>
+      <Link to='/Villapeniel'>VILLAPENIEL</Link>
+      <Link to="/contacto">CONTÁCTENOS</Link>
+    </nav>
+  </div>
+</header>
+
+
 
 a {
-  padding: 10px;
+  padding: 15px;
   color: #000;
 }
-header ul a
-{
-  display: inline-block;
-  color: #000;
-  text-decoration: none;
-  padding: 10px 20px;
-  -webkit-transition:all 200ms ease-in ;
-  -0-transition:all 200ms ease-in ;
-  transition:all 200ms ease-in ;
-  margin: 0 8px;
-}
-header ul a:hover
-{
-  background: #3C69BD;
-  border-radius: 50px;
+a:hover{
+  background: blue;
   color: #fff;
 }
 a:-webkit-any-link {
@@ -150,7 +151,7 @@ a:-webkit-any-link {
 
 @media (min-width: 48em) {
   .header Link {
-    float: right;
+    float: left;
   }
   .header Link a {
     padding: 20px 30px;
@@ -164,4 +165,22 @@ a:-webkit-any-link {
     display: none;
   }
 
+}
+
+header nav a
+{
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  padding: 10px 20px;
+  -webkit-transition:all 200ms ease-in ;
+  -0-transition:all 200ms ease-in ;
+  transition:all 200ms ease-in ;
+  margin: 0 8px;
+}
+header nav a:hover
+{
+  background: #3C69BD;
+  border-radius: 50px;
+  color: #fff;
 }

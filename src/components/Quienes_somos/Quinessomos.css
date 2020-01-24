@@ -16,7 +16,7 @@
 
 }
 .Misión_title {
-  
+
   margin-top: 60px;
   text-align: center;
   font-size: 50px;
@@ -40,10 +40,6 @@
 .text_vision {
   width: 38%;
 }
-
-
-
-
 
 @media screen and (min-width: 100px) and (max-widht: 451px) {
   .Misión {
