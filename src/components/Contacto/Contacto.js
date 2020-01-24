@@ -67,6 +67,7 @@ class Contacto extends Component {
                   placeholder="Escribe tu mensaje"
                   onChange={event => this.valueToState(event.target)}
                 />
+                <button type="button"onClick={this.onClick}>Enviar</button>
             </form>
           </div>
       </div>
