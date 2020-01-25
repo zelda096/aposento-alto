@@ -22,7 +22,7 @@ class Section extends Component {
           <article className="article-section-one">
             <a><img src={Calendario}/></a>
             <h4>Eventos</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Esta sección estará próximamente disponible</p>
           </article>
       </section>
     )
