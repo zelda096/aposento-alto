@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 class Instituto_fiel extends Component{
   render() {
     return (
-      <section id="section-two">
+      <div id="section-two">
         <article className="article-section-two">
           <a target="_blank" href="https://institutofiel.com/"><img src={Fiel}/></a>
           <h4>Instituto Fiel</h4>
@@ -18,7 +18,7 @@ class Instituto_fiel extends Component{
           <h4>Contacto</h4>
           <p>Más información da click aqui.</p>
         </article>
-      </section>
+      </div>
     )
   }
 }

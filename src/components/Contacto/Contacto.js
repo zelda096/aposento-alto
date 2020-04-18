@@ -26,10 +26,10 @@ class Contacto extends Component {
           <div className="text-contact">
             <p className="font">Dirección principal</p>
             <p className="font">Bogotá - Colombia</p>
-            <p className="font1">Cra 16 # 140 - 51</p>
-            <p className="font2">6742209 / 3016501051</p>
-            <p className="font2">correodeejemplo@aposento.com</p>
-            <p className="font2">www.aposentoalto.org.com</p>
+            <p className="font1">Calle 79b # 105b – 09</p>
+            <p className="font2">+057 1 394 8641 / 322 363 2600</p>
+            <p className="font2">info@aposentoaltoasj.org</p>
+            <p className="font2">www.aposentoaltoasj.org.com</p>
 
           </div>
           <form>

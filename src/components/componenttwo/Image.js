@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Imagen from './Imagen.jpg'
+import Aposento from './Aposento.jpg'
 import './Image.css'
 
 class Image extends Component {
   render() {
     return (
       <article className="img_aposento">
-        <img className="aposento"src={Imagen} alt="imagen de Aposento Alto"/>
+        <img className="aposento"src={Aposento} alt="imagen de Aposento Alto"/>
       </article>
     )
   }

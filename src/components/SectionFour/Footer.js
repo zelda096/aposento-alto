@@ -13,14 +13,14 @@ class Footer extends Component {
       <footer id="section-four">
         <article className="article-section-four">
           <p className="array"><img className="array2" src={Casa}/> Calle 79b # 105b - 09</p>
-          <p className="array"><img className="array2" src={Tel}/> 394 86 41</p>
+          <p className="array"><img className="array2" src={Tel}/>+57 1 394 8641 / 322 363 2200</p>
           <p className="array"><img className="array2" src={Email}/>info@aposentoaltoasj.org</p>
         </article>
         <article className="article-section-four">
           <p>Iglesias Cristianas Aposento Alto - Asociación Seguidores de Jesucristo</p>
             <img className="hola" src={Face}/>
 
-            <img className="hola" src={Youtube}/>
+           <a target="_blank" href="https://www.youtube.com/channel/UCsz0vueiu1OKzAMxDOsPVaw"><img className="hola" src={Youtube}/> </a>
         </article>
         <article className="article-section-four">
           <img className="logo_footer" src={Blanco} width="auto" height="180px"/>

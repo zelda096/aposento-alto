@@ -47,11 +47,11 @@ footer {
   margin: 0px 10px;
 }
 
+
 @media screen and (max-width: 500px){
   #section-four {
     flex-direction: column;
     align-items: center;
-    flex-wrap: ;
   }
   .article-section-four {
     flex-direction: column;
